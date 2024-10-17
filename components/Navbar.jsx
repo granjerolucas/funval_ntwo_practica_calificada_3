@@ -32,14 +32,12 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="justify-start items-start gap-4 flex">
-            <div className="px-4 py-1.5 rounded-lg justify-start items-start gap-2.5 flex">
-              <div className="text-blue-500 text-base font-bold ">Log In</div>
-            </div>
-            <div className="px-4 py-1.5 bg-white rounded-lg shadow justify-start items-start gap-2.5 flex">
-              <div className="text-purple-400 text-base font-bold ">
-                Sign Up
-              </div>
-            </div>
+            <button className="px-4 py-1.5 rounded-lg  text-blue-500 text-base font-bold">
+              Log In
+            </button>
+            <button className="px-4 py-1.5 bg-white rounded-lg shadow  text-purple-400 text-base font-bold">
+              Sign Up
+            </button>
           </div>
         </div>
       </div>
