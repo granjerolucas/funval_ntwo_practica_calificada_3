@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <div className="container max-w-6xl  mx-auto">
       {" "}
       <div className="w-full flex">
         <div className="flex flex-[1] justify-start items-center  ">
@@ -23,7 +23,7 @@ export default function Home() {
               ThemeWagon offers an wide array of category-oriented <br />
               Free and Premium Bootstrap HTML Templates and Themes.{" "}
             </div>
-            <ButtonShadow text="Check Demo" />
+            <ButtonShadow text="Check Demo" className="mt-10"/>
           </div>
         </div>
         <div className="flex-[2]">
@@ -36,7 +36,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="w-full h-20x mt-40 bg-gradient-to-r  from-white via-[rgba(157,131,250,0.3)] to-white   p-[2px]  rounded-full ">
+      <div className="w-full h-20x my-20 bg-gradient-to-r  from-white via-[rgba(157,131,250,0.3)] to-white   p-[2px]  rounded-full ">
         <div className="w-full h-full  bg-slate-100 flex place-content-between py-20">
           <div className="grid justify-items-left  items-center">
             <Image
@@ -85,6 +85,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
