@@ -1,10 +1,17 @@
 import React from "react";
 import LinksItems from "./LinksItems";
-
+// /services
+// /details
+// /features
+// /projects
+// /team
+// /testimonial
+// /blog
+// /contact
 const Navbar = () => {
   return (
-    <div className="w-full   justify-center items-center inline-flex bg-slate-400">
-      <div className="container max-w-6xl self-stretch flex-col justify-start items-start inline-flex">
+    <div className="w-full   justify-center items-center inline-flex bg-white">
+      <div className="container max-w-6xlx self-stretch flex-col justify-start items-start inline-flex">
         <div className="w-full  containerx  py-5 bg-gradient-to-r from-white via-white to-white backdrop-blur-3xl justify-between items-center inline-flex">
           <div className="justify-start items-center gap-16 flex">
             <div className="justify-center items-center gap-2 flex">
@@ -15,10 +22,13 @@ const Navbar = () => {
             </div>
             <ul className="justify-start items-start gap-8 flex">
               <LinksItems label="Home" />
-              <LinksItems label="Service" />
-              <LinksItems label="Works" />
-              <LinksItems label="News" />
-              <LinksItems label="Contact" />
+              <LinksItems href="/services" label="Service" />
+              <LinksItems href="/features" label="Features" />
+              <LinksItems href="/projects" label="Projects" />
+              <LinksItems href="/team" label="Our Team" />
+              <LinksItems href="/testimonial" label="Testimonial" />
+              <LinksItems href="/blog" label="News" />
+              <LinksItems href="/contact" label="Contact" />
             </ul>
           </div>
           <div className="justify-start items-start gap-4 flex">

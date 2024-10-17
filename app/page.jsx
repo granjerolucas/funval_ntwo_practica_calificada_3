@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full h-20x mt-40 bg-gradient-to-r  from-white via-[rgba(157,131,250,0.3)] to-white   p-[2px]  rounded-full ">
-        <div className="w-full h-full  bg-white flex place-content-between py-20">
+        <div className="w-full h-full  bg-slate-100 flex place-content-between py-20">
           <div className="grid justify-items-left  items-center">
             <Image
               src="/images/home/google.png"
