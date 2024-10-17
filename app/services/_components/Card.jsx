@@ -12,6 +12,7 @@ const Card = ({ image, className, title, description }) => {
             width={100}
             height={100}
             src={image}
+            alt=""
             className="w-[8rem] my-16"
           />
           <h3 className="self-start text-slate-600 text-xl font-bold ">

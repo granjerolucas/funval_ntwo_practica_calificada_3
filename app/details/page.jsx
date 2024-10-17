@@ -45,9 +45,9 @@ const PageDetails = () => {
                   Devoted to defining the cutting edge
                 </h3>
                 <p className=" text-slate-500 text-base font-normal  text-left">
-                  "This new creation is cutting-edge technology," says the
+                  {`"This new creation is cutting-edge technology," says the
                   researcher, "whose study originates from a business at the
-                  forefront of space science."
+                  forefront of space science."`}
                 </p>
                 <div className="text-left">
                   <span className="text-slate-500 text-base font-normal  text-left">
