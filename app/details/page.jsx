@@ -19,8 +19,8 @@ const PageDetails = () => {
                   A creative team which builds stunning UI/UX
                 </h3>
                 <p className=" text-slate-500 text-base font-normal  text-left">
-                  Today, I'd like to show you some incredible Sign Up screen app
-                  UI ideas and concepts that offer a modern user experience.
+                  {`Today, I'd like to show you some incredible Sign Up screen app
+                  UI ideas and concepts that offer a modern user experience.`}
                   <br />
                   The most stunning, cutting-edge UI/UX.
                 </p>
