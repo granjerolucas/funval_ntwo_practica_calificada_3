@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
             <ul className="justify-start items-start gap-8 flex">
               <LinksItems label="Home" />
-              <LinksItems href="/services" label="Service" />
+              <LinksItems href="/services" label="Services" />
               <LinksItems href="/features" label="Features" />
               <LinksItems href="/projects" label="Projects" />
               <LinksItems href="/team" label="Our Team" />

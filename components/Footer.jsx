@@ -5,7 +5,7 @@ import CardItemsDatils from "./CardItemsDatils";
 function Footer() {
   return (
     <>
-      <div className="mt-10 bg-[url('/images/footer/image1.png')] bg-cover bg-center">
+      <div className="pt-10 bg-[url('/images/footer/image1.png')] bg-cover bg-center">
         <div className="container max-w-6xl  py-24 flex justify-center items-center mx-auto  text-center">
           <div className=" w-3/4  ">
             <div className="text-center text-purple-400 text-[3.2rem] font-bold ">
