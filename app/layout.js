@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        <div className="container mx-auto">{children}</div>
+        <div className="container max-w-6xl  mx-auto">{children}</div>
         <Footer />
       </body>
     </html>

@@ -4,8 +4,8 @@ import LinksItems from "./LinksItems";
 const Navbar = () => {
   return (
     <div className="w-full   justify-center items-center inline-flex bg-slate-400">
-      <div className="container self-stretch flex-col justify-start items-start inline-flex">
-        <div className="w-full   py-5 bg-gradient-to-r from-white via-white to-white backdrop-blur-3xl justify-between items-center inline-flex">
+      <div className="container max-w-6xl self-stretch flex-col justify-start items-start inline-flex">
+        <div className="w-full  containerx  py-5 bg-gradient-to-r from-white via-white to-white backdrop-blur-3xl justify-between items-center inline-flex">
           <div className="justify-start items-center gap-16 flex">
             <div className="justify-center items-center gap-2 flex">
               <div className="w-8 h-7 relative"></div>

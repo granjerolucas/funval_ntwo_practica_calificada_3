@@ -5,9 +5,9 @@ import CardItemsDatils from "./CardItemsDatils";
 function Footer() {
   return (
     <>
-      <div className="mt-10">
-        <div className="container py-24 flex justify-center items-center mx-auto bg-[url('/images/footer/image1.png')] bg-cover bg-center text-center">
-          <div className="px-36 w-3/4  ">
+      <div className="mt-10 bg-[url('/images/footer/image1.png')] bg-cover bg-center">
+        <div className="container max-w-6xl  py-24 flex justify-center items-center mx-auto  text-center">
+          <div className=" w-3/4  ">
             <div className="text-center text-purple-400 text-[3.2rem] font-bold ">
               Exclusively by ThemeWagon
             </div>
@@ -23,11 +23,11 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto">
+      <div className="container max-w-6xl  mx-auto">
         <div className="grid grid-cols-2">
           <div className="grid grid-cols-4 gap-4 ">
             <CardItemsDatils
-              title="Abaout"
+              title="About"
               items={["Prices", "About", "Services", "Career"]}
             />
             <CardItemsDatils
@@ -65,9 +65,7 @@ function Footer() {
               <span className="text-slate-400 text-base font-normal ">
                 Made with{" "}
               </span>
-              <span className="text-red-400 text-[13px] font-black ">
-                
-              </span>
+              <span className="text-red-400 text-[13px] font-black "></span>
               <span className="text-slate-400 text-[13px] font-normal ">️</span>
               <span className="text-slate-400 text-base font-normal "> by</span>
             </div>
