@@ -11,7 +11,7 @@ import LinksItems from "./LinksItems";
 const Navbar = () => {
   return (
     <div className="w-full   justify-center items-center inline-flex bg-white">
-      <div className="container max-w-6xlx self-stretch flex-col justify-start items-start inline-flex">
+      <div className="container max-w-6xl self-stretch flex-col justify-start items-start inline-flex">
         <div className="w-full  containerx  py-5 bg-gradient-to-r from-white via-white to-white backdrop-blur-3xl justify-between items-center inline-flex">
           <div className="justify-start items-center gap-16 flex">
             <div className="justify-center items-center gap-2 flex">
@@ -23,10 +23,10 @@ const Navbar = () => {
             <ul className="justify-start items-start gap-8 flex">
               <LinksItems label="Home" />
               <LinksItems href="/services" label="Services" />
-              <LinksItems href="/features" label="Features" />
-              <LinksItems href="/projects" label="Projects" />
-              <LinksItems href="/team" label="Our Team" />
-              <LinksItems href="/testimonial" label="Testimonial" />
+              {/* <LinksItems href="/features" label="Features" /> */}
+              {/* <LinksItems href="/projects" label="Projects" /> */}
+              {/* <LinksItems href="/team" label="Our Team" /> */}
+              <LinksItems href="/testimonial" label="Works" />
               <LinksItems href="/blog" label="News" />
               <LinksItems href="/contact" label="Contact" />
             </ul>

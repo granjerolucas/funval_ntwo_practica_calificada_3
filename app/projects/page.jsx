@@ -14,48 +14,54 @@ const PageProjects = () => {
         <div className="grid grid-cols-3 gap-y-4 gap-x-2"></div>
         <div className="gap-8 columns-3 p-8">
           <Image
-          className="w-full"
+            className="w-full"
             src={"/images/projects/image1.png"}
             width={300}
             height={300}
             alt="project1"
           />
           <Image
-          className="mt-8 w-full"
+            className="mt-8 w-full"
             src={"/images/projects/image2.png"}
             width={300}
             height={300}
             alt="project2"
           />
           <Image
-          className="mt-8 w-full"
+            className="mt-8 w-full"
             src={"/images/projects/image3.png"}
             width={300}
             height={300}
             alt="project3"
           />
           <Image
-          className="mt-8 w-full"
+            className="mt-8 w-full"
             src={"/images/projects/image4.png"}
             width={300}
             height={300}
             alt="project4"
           />
           <Image
-          className="mt-8 w-full"
+            className="mt-8 w-full"
             src={"/images/projects/image5.png"}
             width={300}
             height={300}
             alt="project5"
           />
           <Image
-          className="mt-8 w-full"
+            className="mt-8 w-full"
             src={"/images/projects/image6.png"}
             width={300}
             height={300}
             alt="project6"
           />
         </div>
+        <div className="flex text-center justify-center items-center ">
+        <button className=" px-4 py-2 rounded-lg border border-purple-400   text-purple-400 text-base font-bold">
+          View more
+        </button>
+        </div>
+       
       </div>
     </div>
   );

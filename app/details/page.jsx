@@ -34,7 +34,7 @@ const PageDetails = () => {
                     ThemeWagon
                   </span>
                 </div>
-                <button className="h-9 px-4 py-[7px] rounded-lg border border-purple-400 justify-start items-start gap-2.5 inline-flex text-purple-400 text-base font-bold">
+                <button className="px-4 py-2 rounded-lg border border-purple-400  text-purple-400 text-base font-bold">
                   Read More
                 </button>
               </div>
@@ -59,7 +59,7 @@ const PageDetails = () => {
                     ThemeWagon
                   </span>
                 </div>
-                <button className="h-9 px-4 py-[7px] rounded-lg border border-purple-400 justify-start items-start gap-2.5 inline-flex text-purple-400 text-base font-bold">
+                <button className="px-4 py-2 rounded-lg border border-purple-400  text-purple-400 text-base font-bold">
                   Read More
                 </button>
               </div>
