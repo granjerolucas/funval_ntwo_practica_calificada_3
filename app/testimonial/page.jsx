@@ -71,10 +71,10 @@ const PageTestimonial = () => {
               Outstanding!!
             </div>
             <div className=" text-slate-500 ">
-              I just wanted to drop you a little email to say thank you for all
+              {`I just wanted to drop you a little email to say thank you for all
               your hard work. I'm delighted I chose you as my partner. Your
               websites are quite simple to edit and maintain, which is
-              fantastic.
+              fantastic.`}
             </div>
             <div className="h-[22px] justify-start items-start gap-2 inline-flex">
               <div className="text-yellow-500 ">
